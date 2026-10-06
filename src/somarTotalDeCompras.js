@@ -5,7 +5,7 @@ export function somarTotalDeCompras(carrinho) {
     total += Number(item.preco) || 0
   }
 
-  // Mudado de > 200 para >= 300 para bater com o valor de 300 do CT04
+
   if (total >= 300) {
     total -= total * 0.1;
   }
